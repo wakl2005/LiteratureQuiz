@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        webView.loadUrl("https://wakl2005.github.io/my-small-web/sql-daily/");
+        webView.loadUrl("https://wakl2005.github.io/my-small-web/");
     }
 
     @Override
