@@ -1,5 +1,8 @@
-plugins {
-    id 'com.android.application' version '8.1.0' apply false
+buildscript {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+    }
 }
 
 allprojects {
@@ -7,4 +10,8 @@ allprojects {
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/central' }
     }
+}
+
+plugins {
+    id 'com.android.application' version '7.4.2' apply false
 }
